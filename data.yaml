@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Angular Leafspot', 'Anthracnose Fruit Rot', 'Blossom Blight', 'Gray Mold', 'Leaf Spot', 'Powdery Mildew Fruit', 'Powdery Mildew Leaf']
+
+roboflow:
+  workspace: school-1na5k
+  project: strawberry-ujwt6
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-1na5k/strawberry-ujwt6/dataset/1
